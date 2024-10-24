@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>亳州张艺兴的个人网站</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="ai-bot">
+        <i class="fas fa-robot"></i>
+        <span class="ai-tooltip">点击开始聊天</span>
+    </div>
+
+    <!-- 添加聊天窗口 -->
+    <div class="chat-window" style="display: none;">
+        <div class="chat-header">
+            <span>AI助手</span>
+            <button class="close-chat"><i class="fas fa-times"></i></button>
+        </div>
+        <div class="chat-messages">
+            <div class="message bot">
+                <i class="fas fa-robot"></i>
+                <div class="message-content">
+                    你好！我是AI助手，有什么可以帮你的吗？
+                </div>
+            </div>
+        </div>
+        <div class="chat-input">
+            <input type="text" placeholder="输入消息..." id="message-input">
+            <button id="send-message"><i class="fas fa-paper-plane"></i></button>
+        </div>
+    </div>
+
+    <header>
+        <h1>亳州张艺兴</h1>
+    </header>
+
+    <main>
+        <div class="content-container">
+            <div class="carousel">
+                <button class="carousel-button prev">&lt;</button>
+                <div class="carousel-container">
+                    <img src="imgs1/002XbRyjgy1hrwjquokq3j61xg2kqnpe02.jpg" alt="个人照片1" class="active">
+                    <img src="imgs1/002XbRyjgy1hrwjqxkbh4j637449h7wl02.jpg" alt="个人照片2">
+                </div>
+                <button class="carousel-button next">&gt;</button>
+            </div>
+
+            <div class="videos-group">
+                <div class="video-container">
+                    <img src="imgs/0065PqZvgy1hnyvsp0tzoj34pn72gqvg.jpg" alt="张艺兴照片1" class="video-image">
+                    <div class="price-tag">¥ 199.00</div>
+                </div>
+
+                <div class="video-container">
+                    <img src="imgs/0065PqZvgy1hnyvu5tuisj34qo9rg7wv.jpg" alt="张艺兴照片2" class="video-image">
+                    <div class="price-tag">¥ 299.00</div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <div class="social-icons">
+        <a href="https://u.wechat.com/MGM4ylJESGLKkoPnLwkVIHs" class="social-icon" target="_blank" title="点击添加微信">
+            <i class="fab fa-weixin"></i>
+            <span class="icon-text">微信</span>
+        </a>
+        <a href="https://qm.qq.com/q/pPTmv4D5Ly" class="social-icon" target="_blank" title="点击添加QQ">
+            <i class="fab fa-qq"></i>
+            <span class="icon-text">QQ</span>
+        </a>
+        <a href="https://v.douyin.com/iSU5gSnE/" class="social-icon" target="_blank" title="点击访问抖音主页">
+            <i class="fab fa-tiktok"></i>
+            <span class="icon-text">抖音</span>
+        </a>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
